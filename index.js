@@ -24,14 +24,14 @@ onload = () => {
         textElement.style.display = "block";
         textElement.style.animation = "text-appear 2s forwards";
     }
-}, 12000);
+}, 28000);
 
 setTimeout(() => {
     let textElement = document.querySelector(".second-text");
     if (textElement) {
         textElement.style.animation = "text-disappear 2s forwards";
     }
-}, 26000);
+}, 42000);
 
 setTimeout(() => {
     let textElement = document.querySelector(".third-text");
@@ -39,14 +39,14 @@ setTimeout(() => {
         textElement.style.display = "block";
         textElement.style.animation = "text-appear 2s forwards";
     }
-}, 12000);
+}, 44000);
 
 setTimeout(() => {
     let textElement = document.querySelector(".third-text");
     if (textElement) {
         textElement.style.animation = "text-disappear 2s forwards";
     }
-}, 26000);
+}, 58000);
 
   setTimeout(() => {
       let finalTextElement = document.querySelector(".final-text");
@@ -54,7 +54,7 @@ setTimeout(() => {
           finalTextElement.style.display = "block";
           finalTextElement.style.animation = "final-text-appear 2s forwards";
       }
-  }, 28000);
+  }, 60000);
 
   setTimeout(() => {
     document.body.classList.remove("flowers-disappear");
