@@ -1065,7 +1065,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     font-size: 3rem; /* Smaller font size for mobile */
   }
   
-  .text {
+  .text, .second-text, .third-text {
     font-size: 1rem; /* Smaller paragraph text */
     width: 90%; /* Wider width for better text flow */
   }
